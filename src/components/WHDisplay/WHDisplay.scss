@@ -1,0 +1,23 @@
+.history {
+    padding: 0px 25px 0px 25px;   
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    color: rgb(74, 72, 72);
+}
+
+.elements {
+    border: 1px solid rgb(74, 72, 72);
+    width: 30vh;
+}
+
+.column-headings {
+    padding: 0px 25px 0px 25px;   
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.history-block {
+    padding-bottom: 25px;
+}
