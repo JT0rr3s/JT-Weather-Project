@@ -11,7 +11,7 @@ const [weatherData, setWeatherData] = useState("");
 
 const getWeatherData = (inputOne, inputTwo, inputThree) => {
 
-const apiKey = "cc7f5b2d7736646da456dcef142ceb95"
+const apiKey = "YOURAPIKEY"
 
 fetch(`https://api.openweathermap.org/data/2.5/weather?q=${inputOne},${inputTwo},${inputThree}&appid=${apiKey}`)
   .then((res) => {
